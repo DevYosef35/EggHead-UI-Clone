@@ -25,7 +25,12 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    font-size: 14;
 	line-height: 1;
+}
+a{
+    display: block;
+    text-decoration: none;
 }
 ol, ul {
 	list-style: none;
@@ -46,4 +51,49 @@ table {
     width: 1300px;
     margin: 0 auto;
 
+}
+.header{
+    height: 60px;
+    background: #141618;
+}
+.header .container{
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.header .logo{
+    margin-right: 40px;
+}
+.header .menu ul li a{
+
+    color: rgba(255,255,255,.8);
+    line-height: 60px;
+}
+.header .menu ul li a:hover{
+    color: rgba(255,255,255);
+}
+.header .search{
+    display: flex;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.header .search input{
+    height: 34px;
+    border: none;
+    background-color: #21252d;
+    padding: 0 10px;
+}
+.header .search input::placeholder{
+  
+    color: rgba(255,255,255,.8);
+    
+}
+.header .search button{
+    height: 34px;
+    width: 32px;
+    background-color: #21252d;
+    color: #ffffff;
+}
+.header .search button:hover{
+    background-color: #316aff;
 }
