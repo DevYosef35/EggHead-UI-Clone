@@ -64,6 +64,9 @@ table {
 .header .logo{
     margin-right: 40px;
 }
+.header .menu ul li a i{
+    margin-right: 5px;
+}
 .header .menu ul li a{
 
     color: rgba(255,255,255,.8);
@@ -76,6 +79,8 @@ table {
     display: flex;
     border-radius: 4px;
     overflow: hidden;
+    margin-left: auto;
+    margin-right: 15px;
 }
 .header .search input{
     height: 34px;
@@ -90,10 +95,64 @@ table {
 }
 .header .search button{
     height: 34px;
-    width: 32px;
+    width: 34px;
+    cursor: pointer;
     background-color: #21252d;
     color: #ffffff;
 }
 .header .search button:hover{
     background-color: #316aff;
+}
+.header .login-buttons ul{
+    display: flex;
+}
+.header .login-buttons a{
+    line-height: 34px;
+    color: rgba(255,255,255,.8);
+    padding: 0 15px;
+}
+.header .login-buttons a:hover{
+    color: #ffffff;
+}
+.header .login-buttons .join-now-btn{
+    background-color: #36855b;
+    border-radius: 4px;
+}
+
+
+/* BANNER SECTION */
+.banner{
+    max-height: 50vh;
+    background: linear-gradient(70deg, #212a39, #181e28);
+}
+.banner .container{
+    max-width: 50vh;
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+}
+.banner .container .banner-box{
+    width: 50%;
+}
+.banner .container .banner-box img{
+    margin-left: 150px;
+}
+.banner .banner-box h1{
+    font-size: 36px;
+    color: #ffffff;
+}
+.banner .banner-box h2{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.banner .banner-btn{
+    cursor: pointer;
+    background-color: #316aff;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color: #ffffff;
+    letter-spacing: 1px;
 }
