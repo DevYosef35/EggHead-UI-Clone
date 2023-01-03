@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    background-color: #f4f7f9;
     font-size: 14;
 	line-height: 1;
 }
@@ -156,3 +157,61 @@ table {
     color: #ffffff;
     letter-spacing: 1px;
 }
+.body-section{
+    align-items: center;
+    padding: 21px;
+    display: flex;
+}
+.body-section .lang{
+    width: 392px;
+    min-width: 392px;
+    display: flex;
+    justify-content: space-between;
+}
+.body-section .lang a{
+    width: 184px;
+    height: 184px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin: 24px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.body-section .lang a:hover{
+    transform: scale(1.03);
+    transition: 200ms all;
+}
+
+.body-section .lang a img{
+    width: 42px;
+    height: 42px;
+    margin-bottom: 10px;
+}
+.body-section .lang a span{
+    font-size: 18px;
+}
+.body-section .lang,.inner{
+    width: 50%;
+
+}
+
+.body-section .inner h1{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.body-section .inner p{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 28px;
+}
+
+
+
+
+
+
+
