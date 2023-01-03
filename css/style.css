@@ -83,6 +83,7 @@ table {
     margin-left: auto;
     margin-right: 15px;
 }
+.header .search form{display: flex;}
 .header .search input{
     height: 34px;
     border: none;
@@ -160,6 +161,10 @@ table {
     padding: 10px;
     color: #ffffff;
     letter-spacing: 1px;
+}
+.banner .banner-btn:hover{
+    transform: scale(1.08);
+    transition: 200ms all;
 }
 .body-section{
     align-items: center;
@@ -270,7 +275,74 @@ table {
     padding: 10px;
     color: #ffffff;
     background-color: #36855b;
+    cursor: pointer;
+}
+.comments .comments-btn:hover{
+    transform: scale(1.08);
+    transition: 200ms all;
 }
 .comments .image img{
     width: 100%;
+}
+
+.footer{
+    background-color: #141618;
+       
+}
+.footer .container{
+    padding: 40px 40px;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+}
+.footer .logo {
+    margin-bottom: 10px;
+}
+.footer-nav nav ul li a{
+    color: rgba(255,255,255,.8);
+    font-size: 16px;
+    line-height: 150%;
+    margin: 15px;
+    transition: 200ms color;
+
+}
+.footer-nav nav{
+
+    margin-right: 32px;
+}
+.footer-nav h6{
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    margin-bottom: 15px;
+}
+.footer-nav nav ul li a:hover{
+    color: #ffffff;
+}
+
+.footer .footer-nav .search{
+    margin-left: auto;
+    
+}
+.footer .footer-nav .search h6{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.footer .footer-nav .search .search-input{
+    background-color: #21252d;
+    border: none;
+    color: #212a39;
+    width: 375px;
+    height: 48px;
+    padding: 0 15px;
+}
+.footer .footer-nav .search button{
+    width: 48px;
+    height: 48px;
+    background-color: #316aff;
+    cursor: pointer;
+    color: #ffffff;
+}
+.footer .footer-nav .search form{
+    display: flex;
 }
