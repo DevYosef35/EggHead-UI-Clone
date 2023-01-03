@@ -83,6 +83,7 @@ table {
     margin-left: auto;
     margin-right: 15px;
 }
+.header .search form{display: flex;}
 .header .search input{
     height: 34px;
     border: none;
@@ -135,6 +136,10 @@ table {
 .banner .container .banner-box{
     width: 50%;
 }
+.banner .container .banner-box a:hover{
+    transform: scale(1.03);
+    transition: 200ms all;
+}
 .banner .container .banner-box img{
     margin-left: 150px;
 }
@@ -156,6 +161,10 @@ table {
     padding: 10px;
     color: #ffffff;
     letter-spacing: 1px;
+}
+.banner .banner-btn:hover{
+    transform: scale(1.08);
+    transition: 200ms all;
 }
 .body-section{
     align-items: center;
@@ -208,10 +217,132 @@ table {
     padding: 10px;
     line-height: 28px;
 }
+/* TESTIMONIALS SECTION */
+.testimonials{
+    background-color: #ffffff;
+    padding: 100px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    padding: 64px 96px;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.testimonials .icon{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials i{
+    color: #e5ecf0;
+    background-color: #f4f7f9;
+    padding: 24px;
+    border-radius: 34px;
+}
+.testimonials p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 32px;
+}
+.testimonials img{
+    border-radius: 64px;
+    margin-bottom: 10px;
+}
+.testimonials .user{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* COMMENTS */
+.comments{
+    display: flex;
+    align-items: center;
+}
+.comments .text h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.comments .text p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.comments .text .comments-btn{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #36855b;
+    cursor: pointer;
+}
+.comments .comments-btn:hover{
+    transform: scale(1.08);
+    transition: 200ms all;
+}
+.comments .image img{
+    width: 100%;
+}
 
+.footer{
+    background-color: #141618;
+       
+}
+.footer .container{
+    padding: 40px 40px;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+}
+.footer .logo {
+    margin-bottom: 10px;
+}
+.footer-nav nav ul li a{
+    color: rgba(255,255,255,.8);
+    font-size: 16px;
+    line-height: 150%;
+    margin: 15px;
+    transition: 200ms color;
 
+}
+.footer-nav nav{
 
+    margin-right: 32px;
+}
+.footer-nav h6{
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    margin-bottom: 15px;
+}
+.footer-nav nav ul li a:hover{
+    color: #ffffff;
+}
 
-
-
-
+.footer .footer-nav .search{
+    margin-left: auto;
+    
+}
+.footer .footer-nav .search h6{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.footer .footer-nav .search .search-input{
+    background-color: #21252d;
+    border: none;
+    color: #212a39;
+    width: 375px;
+    height: 48px;
+    padding: 0 15px;
+}
+.footer .footer-nav .search button{
+    width: 48px;
+    height: 48px;
+    background-color: #316aff;
+    cursor: pointer;
+    color: #ffffff;
+}
+.footer .footer-nav .search form{
+    display: flex;
+}
